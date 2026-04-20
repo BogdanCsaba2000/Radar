@@ -5,7 +5,9 @@ Rövid leírás: Egy távolság mérő szenzor segítségével mérjük a távol
 Felhasznált eszközök: Arduino uno R3, LCD 16-2, 2 db LED lámpa(1 piros, 1 zöld), Ultrahangos távolságérzékelő, szerelőlap, 2db ellenállás. 
 Vezetékezés:Piros-tápfeszültség, Fekete-földelés, Türkizkék-zöld jelzőlámpa,Narancssárga-piros jelzőlámpa, Sárga-LCD 16-2, Zöld-ultrahangos távolságmérő.
 
-Szoftver:változók(cm(mért távolság),distanceThreshold(maximum távolság amíg mér a szenzor),triggerPin(eseményindító a távolságmérőhöz),echoPin(eredmény visszküldő a távolságmérőhöz)
+Szoftver:
+Változók(cm(mért távolság),distanceThreshold(maximum távolság amíg mér a szenzor),triggerPin(eseményindító a távolságmérőhöz),echoPin(eredmény visszküldő a távolságmérőhöz)
+
 Függvények: setup(), loop(), readUltrasonicDistance();
 
 readUltrasonicDistnce:itt megy végbe a távolság mérése és továbítása az Arduinónak. 
